@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_cluster_analysis",
+  "source_file": "PN_ClusterData_Cluster Analysis.sas",
+  "source_blob_sha": "468bf73264f6b7898ee29dca16e4ba4eae130d76",
+  "source_commit": "de9adaf75f1da270659f00c91d825407e9862371",
+  "notes": "Full K-means customer-segmentation pipeline (PROC SQL clean/select, PROC CORR, PROC STDIZE range, PROC FASTCLUS maxclusters=3, PROC MEANS by cluster). External class libname MKTG525.CLUSTERDATA replaced with a 25-row in-memory CLUSTERDATA sample matching the read columns (CustomerID, Age, Annual_Income, Spending_Score, Product_Description); only that libname reference was rewritten, clustering logic unchanged. Produces 3 well-separated segments (R-Squared 0.92). standalone.sas folds the sample data into script.sas as a single self-contained file for one-request /v1/quick runs."
+}

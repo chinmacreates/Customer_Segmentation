@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-13T08:28:48+00:00",
+  "_captured_run_id": "r_95a91fa2f00e4d95897a1faeb07b7ff7",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Read 25 rows from DATALINES.",
+    "Table Cluster_new created.",
+    "PROC FASTCLUS: 25 observations, 3 variables, 3 clusters using k-means"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
